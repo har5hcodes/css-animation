@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#greet{
+    font-size: 3rem;
+    margin-bottom: 25px;
+    color: slateblue;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: slateblue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+.hover{
+    transform: scale(2);
+}
